@@ -3,6 +3,8 @@ var selectElementsStartingWithA = function(array) {
 }
 
 var selectElementsStartingWithVowel = function(array) {
+    const Voyel=['a','e','i','o','u','y'];
+    return array.filter(item => Voyel.includes(item.charAt(0)));
 }
 
 var removeNullElements = function(array) {
