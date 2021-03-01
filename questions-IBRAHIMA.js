@@ -90,11 +90,12 @@ var repeatElements = function(array) {
 }
 
 var stringToNumber = function(string) {
-    return 'Write your method here';
+    return parseInt(string);
 }
 
 var calculateAverage = function(array) {
-    return 'Write your method here';
+    let sum = array.reduce((a, b) => a + b, 0);
+    return sum / array.length;
 }
 
 var getElementsUntilGreaterThanFive = function(array) {
