@@ -20,7 +20,7 @@ var removeNullAndFalseElements = function(array) {
     };
 
 var reverseWordsInArray = function(array) {
-    return array.filter((word) => word.startsWith("a"));
+    return array.map(a => a.split('').reverse().join(''));
 }
 
 var everyPossiblePair = function(aray1) {
